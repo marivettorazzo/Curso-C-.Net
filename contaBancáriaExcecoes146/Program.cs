@@ -10,6 +10,7 @@ namespace contaBancáriaExcecoes146
         {
             try
             {
+                Console.WriteLine("Bom dia!");
                 Console.WriteLine("Enter account data ");
                 Console.Write("Number: ");
                 int number = int.Parse(Console.ReadLine());
